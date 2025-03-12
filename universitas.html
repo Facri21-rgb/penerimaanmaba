@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Laporan Penerimaan Mahasiswa Baru</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url(poto.jpg); 
+                background-size: cover;  
+                background-position: center;  
+                color: #333;
+                height: 100vh;
+            }
+
+            
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            
+            .logo {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+           
+            h2 {
+                text-align: center;
+                color: #333;
+                margin-top: 30px;
+            }
+
+            
+            table {
+                width: 80%;
+                margin: 30px auto;
+                border-collapse: collapse;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                border-radius: 10px;
+            }
+
+
+            th {
+                background-color: #2980B9;
+                color: white;
+                padding: 12px 20px;
+                text-align: center;
+                font-weight: bold;
+                border: 1px solid #ddd;
+            }
+
+
+            td {
+                padding: 12px 20px;
+                text-align: center;
+                border: 1px solid #ddd;
+            }
+
+
+            tr:nth-child(even) {
+                background-color: #ecf0f1;
+            }
+
+           
+            tr:hover {
+                background-color: #d3f10f;
+                cursor: pointer;
+            }
+
+
+            @media print {
+                .no-print {
+                    display: none !important;
+                }
+            }
+
+            .tombol {
+            margin-top: 5vh;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .tombol button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .tombol button:hover {
+            background-color: #0056b3;
+        }
+
+
+        </style>
+    </head>
+
+    <body>       
+        <center>
+            <h1>UNIVERSITAS NEGERI PADANG</h1>
+            <h2>Laporan Penerimaan Mahasiswa Baru</h2>
+            <h2> TA. 2025/2026</h2>
+            <img src="logo3.png" width="15%" alt="Logo UNP">
+        </center>
+        <table>
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftaran</th>
+                <th>Nama Mahasiswa</th>
+                <th>Fakultas</th>
+                <th>Departemen</th>
+                <th>Prodi</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1001</td>
+                <td>Facri Raihan</td>
+                <td>Teknik</td>
+                <td>Elektronika</td>
+                <td>Informatika</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>1002</td>
+                <td>Muhammad Zikri</td>
+                <td>Teknik</td>
+                <td>Elektronika</td>
+                <td>Informatika</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>1003</td>
+                <td>Olivia Rodriguez</td>
+                <td>Ekonomi Bisnis</td>
+                <td>Bisnis</td>
+                <td>Bisnis Digital</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>1004</td>
+                <td>Evos Rasya</td>
+                <td>Olahraga</td>
+                <td>Ilmu Keolahragaan</td>
+                <td>Ilmu Olahraga</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>1005</td>
+                <td>RRQ Adit</td>
+                <td>Ilmu Pendidikan</td>
+                <td>Administrasi Pendidikan</td>
+                <td>Pendidikan Guru SD</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>1006</td>
+                <td>Evos Galang</td>
+                <td>Bahasa dan Seni</td>
+                <td>Bahasa dan Sastra Indonesia dan Daerah</td>
+                <td>Bahasa Indonesia</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>1007</td>
+                <td>Ibnu Khasimiri</td>
+                <td>Ilmu Pendidikan</td>
+                <td>Bimbingan dan Konseling</td>
+                <td>Psikologi</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>1008</td>
+                <td>Muhammad Sumbul</td>
+                <td>Matematika dan Ilmu Pengetahuan Alam</td>
+                <td>Statistika</td>
+                <td>Statistika</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>1009</td>
+                <td>Usman Kanabawi</td>
+                <td>Teknik</td>
+                <td>Mesin</td>
+                <td>Mesin</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>10010</td>
+                <td>Fadil Jaidi</td>
+                <td>Teknik</td>
+                <td>Otomotif</td>
+                <td>Pendidikan Teknik Otomotif</td>
+            </tr>
+        </table> 
+        
+        <section class="tombol">
+            <a href="#"><button type="button">Universitas</button></a>
+            <a href="fakultasper.html"><button type="button">Fakultas</button></a>
+        </section>
+
+
+    </body>
+</html>
